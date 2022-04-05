@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+  line-height: 1.5;
+  font-family: georgia, "Denk One";
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Denk One";
+  color: #623b0c;
+  padding: 1rem;
+}
+
+h2 {
+  font-family: "Denk One";
+  color: #623b0c;
+}
+
+ol {
+  display: flex;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #f5f2f0;
+  border: 2px;
+  border-radius: 8px;
+  border-color: #623b0c;
+}
+
+p {
+  font-family: georgia;
+  color: #000;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  font-family: georgia;
+  color: #fff;
+  background-color: #623b0c;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #623b0c;
+}
