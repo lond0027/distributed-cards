@@ -13,15 +13,20 @@ body {
   margin: 0;
 }
 
+main {
+  padding: 1rem;
+}
+
 h1 {
   font-family: "Denk One";
   color: #623b0c;
-  padding: 1rem;
+  margin: 0 0 1.5rem;
 }
 
 h2 {
   font-family: "Denk One";
   color: #623b0c;
+  margin: 0 0 1.5rem;
 }
 
 ol {
@@ -33,13 +38,13 @@ ol {
 }
 
 ol li {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #f5f2f0;
+  background-color: #ede3db;
   border: 2px solid #623b0c;
   border-radius: 8px;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 p {
@@ -48,6 +53,7 @@ p {
 
 img {
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 a {
@@ -56,6 +62,8 @@ a {
   background-color: #623b0c;
   border-radius: 8px;
   text-decoration: none;
+  margin-top: 1.5rem;
+  padding: .5em .75em .6em;
 }
 
 a:hover {
